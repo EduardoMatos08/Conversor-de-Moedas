@@ -1,0 +1,240 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    background: #626262;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50%;
+}
+
+#container {
+    margin: 8% 0;
+}
+
+
+
+#convert-money-logo {
+    height: 175px;
+    width: 175px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin: 25px 25% 10px 25%;
+}
+
+
+
+section {
+    background: #FFFFFF;
+    border: 3px solid #434343;
+    border-radius: 15px;
+    display: grid;
+    width: 357px;
+    height: 715px;
+    margin-bottom: 25px;
+}
+
+main {
+    display: grid;
+    margin-left: 3%;
+}
+
+
+
+#CONVERTER-de {
+    color: #777777;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+#converter-DE {
+    font-weight: 700;
+}
+
+.select-conversion {
+    cursor: pointer;
+    text-align: center;
+    appearance: none;
+    color: #555555;
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 327px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.select-conversion:disabled {
+    background: #FFFFFF;
+    opacity: 1;
+    color: #555555;
+}
+
+#CONVERTER-para {
+    margin-top: 20px;
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+#converter-PARA {
+    font-weight: 700;
+}
+
+#h4-value {
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+#input-conversion-value {
+    color: #555;
+    appearance: none;
+    width: 327px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+#input-conversion-value::placeholder {
+    padding: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 23px;
+    margin-bottom: 36px;
+    width: 327px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background: #772FD3;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px
+}
+
+#conversion {
+    margin: 0 3.7%;
+    width: 327px;
+    height: 289px;
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+}
+
+#contents-of-conversion {
+    height: 100%;
+    width: 100%;
+}
+
+#arrow-img {
+    width: 35px;
+    height: 49.939px;
+    margin: 0 44.65%;
+    margin: 15px 44.65%;
+}
+
+#br-conversion-img {
+    width: 44px;
+    height: 44px;
+    margin: 12px 43.3% 0 43.3%;
+}
+
+#real {
+    margin: 4px 0 2px 0;
+    text-align: center;
+}
+
+#usa-conversion-img {
+    width: 44px;
+    height: 44px;
+    margin: 0 43.3%;
+}
+
+.type-of-currency {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.value {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+#conversion-value {
+    text-align: center;
+}
+
+#type-of-currency {
+    text-align: center;
+}
+
+#converted-value {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 445px) {
+    
+    html {
+        background-color: #772FD3;
+    }
+
+    #wrapper {
+        display: unset;
+        padding: 0;
+        justify-self: unset;
+        margin: unset;
+    }
+    
+    #convert-money-logo {
+        box-shadow: 7px 7px 7px #441c7a;
+        border: none;
+        margin: 22px 29% 20px 29%;
+    }
+
+    section {
+        margin: none;
+        height: 100%;
+        width: 100%;
+        border: none;
+        border-radius: unset;
+    }
+
+    #container {
+        margin: 8%;
+    }
+}

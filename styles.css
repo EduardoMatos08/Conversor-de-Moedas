@@ -210,7 +210,7 @@ button {
 @media screen and (max-width: 445px) {
     
     html {
-        background-color: #772FD3;
+        background: #626262;
     }
 
     #wrapper {
@@ -221,9 +221,9 @@ button {
     }
     
     #convert-money-logo {
-        box-shadow: 7px 7px 7px #441c7a;
-        border: none;
-        margin: 22px 29% 20px 29%;
+        margin: 22px 31% 20px 31%;
+        border: 3px solid #000;
+        border-radius: 15px;
     }
 
     section {

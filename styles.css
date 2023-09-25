@@ -229,7 +229,7 @@ button {
     section {
         margin: none;
         height: 100%;
-        width: 100vw;
+        width: 110%;
         border: none;
         border-radius: unset;
     }

@@ -38,20 +38,20 @@
 
                     <h4 id="CONVERTER-para">Converter <span id="converter-PARA">para</span>:</h4>
 
-                    <select class="select-conversion">
+                    <select id="select-converted" class="select-conversion">
 
-                        <option>US$ - <span>Dólar (EUA)</span></option>
-                        <option>€ - <span>Euro</span></option>
-                        <option>£ - <span>Libra</span></option>
-                        <option>₿ - <span>Bitcoin</span></option>
+                        <option id="dolar">US$ - <span>Dólar</span></option>
+                        <option id="euro">€ - <span>Euro</span></option>
+                        <option id="libra">£ - <span>Libra</span></option>
+                        <option id="bitcoin">₿ - <span>Bitcoin</span></option>
                     
                     </select>
                     
-                    <h4 id="h4-value">Valor</h4>
+                    <h4 id="h4-value">Valor:</h4>
                     <!--
                         Input pronto para receber o valor de conversão.
                     -->
-                    <input id="input-conversion-value" type="number" placeholder="Digite aqui o valor da conversão...">
+                    <input id="input-conversion-value" type="number" placeholder="R$ 0,00">
                     <!--
                         Button pronto para o recebimento das informações.
                     -->
@@ -67,7 +67,7 @@
 
                             <img id="br-conversion-img" src="./assets/convert-br.png" alt="br-flag">
                             <p id="real" class="real-currency">Real</p>
-                            <p id="conversion-value" class="value">R$ 0,00</p>
+                            <p id="conversion-value" class="value">BLR 0,00</p>
 
                         </div>
 
@@ -76,7 +76,7 @@
                         <!-- Outras Convesões -->
                         <div id="conversion-other-countries">
 
-                            <img id="usa-conversion-img" src="./assets/convert-usa.png" alt="currency-conversion">
+                            <img id="converted-img" src="./assets/convert-usa.png" alt="currency-conversion">
                             <p id="type-of-currency">Dólar Americano</p>
                             <p id="converted-value" class="value">$ 0,00</p>
 

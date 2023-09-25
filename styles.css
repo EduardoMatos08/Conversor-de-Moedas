@@ -196,6 +196,7 @@ button:active {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+    text-align: center;
 }
 
 .value {
@@ -206,10 +207,6 @@ button:active {
 }
 
 #conversion-value {
-    text-align: center;
-}
-
-#type-of-currency {
     text-align: center;
 }
 

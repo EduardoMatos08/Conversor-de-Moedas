@@ -221,6 +221,11 @@ button:active {
         background: #626262;
     }
 
+    body {
+        height: auto;
+        width: 100vw;
+    }
+
     #wrapper {
         display: unset;
         padding: 0;
